@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversor de Dólares a Pesos Mexicanos</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Conversor de Dólares a Pesos Mexicanos</h1>
+
+  <label for="cantidad">Cantidad:</label>
+  <input type="number" id="cantidad" />
+
+  <label for="monedaOrigen">Moneda de origen:</label>
+  <select id="monedaOrigen">
+    <option value="dolares">Dólares</option>
+    <option value="pesos">Pesos Mexicanos</option>
+  </select>
+
+  <label for="monedaDestino">Moneda de destino:</label>
+  <select id="monedaDestino">
+    <option value="dolares">Dólares</option>
+    <option value="pesos">Pesos Mexicanos</option>
+  </select>
+
+  <button onclick="convertir()">Convertir</button>
+
+  <p id="resultado"></p>
+</body>
+</html>
